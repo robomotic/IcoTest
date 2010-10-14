@@ -1,0 +1,4 @@
+function out=getSigmValue(value)
+    max_pwr_motor=100;
+	decay=(max_pwr_motor/10)+1;
+	out=(max_pwr_motor./(1+exp(-value./decay)))-50;

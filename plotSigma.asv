@@ -1,0 +1,4 @@
+
+
+x=-100:1:10;
+plot(x,getSigmValue(x));
